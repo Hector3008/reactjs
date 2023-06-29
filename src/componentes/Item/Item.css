@@ -1,0 +1,10 @@
+.imagenItem{
+  width: 24rem;
+}
+.ItemCard{
+  margin: 4rem;
+  padding: 2rem;
+  border: 1px solid black ;
+  border-radius: 2rem;
+  align-items: center;
+}
