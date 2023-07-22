@@ -2,7 +2,7 @@ import React from 'react'
 
 const Error = () => {
   return (
-    <div>Error</div>
+    <h1>hay un error en la carga de esta página</h1>
   )
 }
 

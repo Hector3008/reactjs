@@ -3,15 +3,25 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  border-bottom: 1px solid black;
+  background-color: rgb(216, 201, 231);
 }
 
 li {
   display: inline-block;
-  margin: 1rem;
+  margin: 2rem;
   cursor: pointer;
 }
 
 .logo{
-  margin-left: 5rem;
+  margin: 1rem;
+  width: 16rem;
+}
+.logo:hover{
+  width: 17rem;
+  transition: width 0.1s;
+}
+.category{
+  color: blueviolet;
+  text-align: center;
+  font-size: 1rem;
 }

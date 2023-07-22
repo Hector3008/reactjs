@@ -1,10 +1,21 @@
 .imagenItem{
-  width: 24rem;
+  width: 15rem;
 }
 .ItemCard{
-  margin: 4rem;
-  padding: 2rem;
-  border: 1px solid black ;
-  border-radius: 2rem;
+  width: 17rem;
+  margin: 1rem;
+  padding: 1rem;
+  border-radius: 1rem;
   align-items: center;
+  background-color: rgb(140, 150, 159);
+  text-align: center;
+}
+.ItemCard:hover{
+  width: 18rem;
+  transition: width 0.1s;
+    box-shadow:
+        inset 0 -3em 3em rgba(0, 0, 0, 0.1),
+        0 0 0 2px rgb(255, 255, 255),
+        0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+    
 }

@@ -7,20 +7,32 @@ const Navbar = () => {
   return (
     <header>
       <Link to="/">
-      <h1 className="logo">Tienda</h1>
+        <img
+          className="logo"
+          src="../public/img/bikeshop.png"
+          alt="bikeshoplogo"
+        />
       </Link>
       <ul>
         <li>
-          <NavLink to={"/categoria/1"}>productos</NavLink>
+          <NavLink className="category" to={"/categoria/1"}>
+            productos
+          </NavLink>
         </li>
         <li>
-          <NavLink to={"/categoria/2"}>servicios</NavLink>
+          <NavLink className="category" to={"/categoria/2"}>
+            servicios
+          </NavLink>
+        </li>
+        <li>
+          <NavLink className="category" to={"/contacto"}>
+            contacto
+          </NavLink>
         </li>
       </ul>
-      <CartWidget/>
-
+      <CartWidget />
     </header>
-  )
+  );
 }
 
 export default Navbar

@@ -1,0 +1,7 @@
+.cartContainer{
+  margin: 1rem;
+  text-align: center;
+}
+.CartCardsContainer{
+  display: flex;
+}
